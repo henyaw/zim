@@ -1,7 +1,7 @@
-CC      = cc
-CFLAGS  = -std=c99 -O2 -Wall -Wextra
-TARGET  = zsymlink
-SRC     = zsymlink.c
+CC     = cc
+CFLAGS = -std=c99 -O2 -Wall -Wextra
+TARGET = zim
+SRC    = zim.c
 
 $(TARGET): $(SRC)
 	$(CC) $(CFLAGS) -o $@ $<
